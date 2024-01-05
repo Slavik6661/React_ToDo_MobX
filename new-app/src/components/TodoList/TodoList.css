@@ -1,0 +1,27 @@
+.contener{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.imgState{
+    margin-right: 5px;
+    width:40px;
+    height:40px;
+}
+.todo-item{
+  width: 525px ;  
+}
+.btnDelete{
+    width:40px;
+    height:40px;
+    background-image:url("../../image/notDeleteBin.png");
+    border: none;
+}
+.btnDelete:hover{
+    width:40px;
+    height:40px;
+    background-image:url("../../image/binDel.png");
+    border: none;
+}
+

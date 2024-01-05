@@ -1,7 +1,7 @@
 import { observer } from "mobx-react-lite";
-import todoStore from "../store/todoStore";
+import todoStore from "../../store/todoStore";
 import { useState } from "react";
-import { runInAction } from "mobx";
+import './TodoForm.css'
 
 const TodoForm: React.FC = observer(() => {
   const [newTodoTitle, setNewTodoTitle] = useState("");

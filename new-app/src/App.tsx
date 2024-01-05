@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from "react";
-import { observer } from "mobx-react-lite";
-import todoStore from "./store/todoStore";
+import React from "react";
 import "./App.css";
-import TodoForm from "./components/TodoForm";
-import TodoList from "./components/TodoList";
+import TodoForm from "./components/TodoForm/TodoForm";
+import TodoList from "./components/TodoList/TodoList";
 
 const App: React.FC = () => {
   return (
